@@ -18,4 +18,11 @@ To check the balance bot working I use the simple code.
  
 ![Image alt](https://github.com/lelami/Behavioural_robotics/raw/master/images_4_6/5_work.png)
 
+I tried to render the robot, but it didn't work because of mistake in "balancebot_env.py" file in "set_actuator" method.
+
 # Task 6
+Robot ErDiscrim was evolved 10 times with different seeds (5, 10, 15, 20, 25, 30, 35, 40, 45, 50) using LSTM architecture (parameter "architecture" in file "ErDiscrim.ini" is equal 3). 
+![Image alt](https://github.com/lelami/Behavioural_robotics/raw/master/images_4_6/6_lstm.png)
+
+After I repeat the experiment but 6 times with different seeds (5, 10, 15, 20, 25, 30) using feed-forward architecture (parameter "architecture" in file "ErDiscrim.ini" is equal 0). 
+![Image alt](https://github.com/lelami/Behavioural_robotics/raw/master/images_4_6/6_feedforward.png)
