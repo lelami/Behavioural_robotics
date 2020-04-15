@@ -14,7 +14,7 @@ To check the balance bot working I use the simple code.
 
 ![Image alt](https://github.com/lelami/Behavioural_robotics/raw/master/images_4_6/5_checking_code.png)
 
- When robot apply the reward, parameter "done" become equal "true". So, just print "It's done", when it's happening.
+ When robot reach the reward, parameter "done" become equal "true". So, just print "It's done", when it's happening.
  
 ![Image alt](https://github.com/lelami/Behavioural_robotics/raw/master/images_4_6/5_work.png)
 
@@ -26,3 +26,5 @@ Robot ErDiscrim was evolved 10 times with different seeds (5, 10, 15, 20, 25, 30
 
 After I repeat the experiment but 6 times with different seeds (5, 10, 15, 20, 25, 30) using feed-forward architecture (parameter "architecture" in file "ErDiscrim.ini" is equal 0). 
 ![Image alt](https://github.com/lelami/Behavioural_robotics/raw/master/images_4_6/6_feedforward.png)
+
+As we can see, the robot with feed-forward architecture reaches reward a little faster in common case that robot with LSTM architecture.
